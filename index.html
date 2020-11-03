@@ -3,29 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/external.css">
     <title>Персональна сторінка Дмитра</title>
+    <style>
+        .newbg
+        {
+            background-color: rgb(199, 192, 192);
+        }
+        .dotted
+        {
+            color:aqua;
+            color:red;
+            border-top: 5px dotted;
+            width: 20%;
+            margin: 0 auto;
+        }
+        p
+        {
+            text-align: center;
+        }
+        img
+        {
+            display: block;
+            margin: 20px auto;
+        }
+        h3
+        {
+            text-align: center;
+        }
+        strong,p
+        {
+            color:blue;
+        }
+    </style>
 </head>
 <body>
     <div class="wrap">
         <section class="header">
-            <h3 class="project-name">Персональна сторінка Дмитра</h3>
+            <h3 id="gentext" style="color: burlywood;" class="project-name">Персональна сторінка Дмитра</h3>
         </section>
         <section class="info">
             <div class="image">
                 <img src="img/photo_2020-10-14_15-15-19.jpg" width="200px" alt="photo">
             </div>
             <div class="personal-name">
-                <hr>
+                <hr class="dotted">
                 <p class="name">Мене звати <b>Дмитро</b></p>
-                <hr>
+                <hr class="dotted">
             </div>
-            <div class="personal-info">
-                <p>Я навчаюсь на другому курсі вищого навчального закладу, на факультеті АКФ. </p>
-                <hr>
+            <div class="info-p" class="personal-info">
+                <p class="newbg">Я навчаюсь на другому курсі вищого навчального закладу, на факультеті АКФ. </p>
+                <hr class="dotted">
                 <p>Раніше, активно займався <strong> frontend </strong> розробкою, проте з часом змінив свій напрям діяльності. </p>
-                <hr>
+                <hr class="dotted">
                 <p>В вільний час читаю книжки, працюю ради задоволення або ж просто гуляю. </p>
-                <hr>
+                <hr class="dotted">
+                <br>
             </div>
         </section>
     </div>
